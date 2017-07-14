@@ -6,8 +6,6 @@ A simple plugin that creates filtering controls and based on data provided in th
 
 * jQuery v1.10.1+
 * TableSorter.js v2.25.5
-* Behance application registration for your web site.
-* Colorbox jQuery lightbox plugin for slideshows (included).
 
 # Installation
 
@@ -21,7 +19,7 @@ A simple plugin that creates filtering controls and based on data provided in th
 
 1. Add CSS file change to suit taste  
 
-`<link rel='stylesheet" href=../lib/javascript/jquery.tablesorter.js>`
+`<link rel='stylesheet" href=../lib/css/filter.css>`
 
 
 # To Do List
