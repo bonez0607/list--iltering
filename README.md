@@ -18,6 +18,10 @@ A simple plugin that creates filtering controls and based on data provided in th
 1. Add CSS file change to suit taste  
 `<link rel='stylesheet" href=../lib/css/filter.css>`
 
+# Using the filtering
+
+1. Cache jquery selectors 
+
 
 # To Do List
   * Easier to use in other instances
