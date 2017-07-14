@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+body{
+	margin-top:50px;
+	}
+
+.fixed{
+position:fixed;
+}
+
+/* Checkbox and Button spacing */
+
+label {
+display:block;
+padding:5px 10px;
+}
+
+label:hover{
+background-color:#006699;
+color:white;
+ -webkit-transition: all .3s ease-out;
+          transition: all .3s ease-out;
+}
+
+label span {
+margin-left:10px;
+}
+
+button {
+	position:relative;
+	margin:10px 10px 0 0;
+	font-family:verdana;
+	font-size:1em;
+	font-weight:700;
+	padding:10px;
+	color:#336633;
+	background-color:#CDDDCC;
+	border:2px solid #336633;
+	border-radius: 5px;
+	outline:none;
+	margin-bottom: 5px;
+	}
+	
+button:hover, button:focus{
+	color:#FFFFFF;
+	background-color:#006699;
+	border-color:#006699;
+	transition:all .1s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	}
+
+
+
+/* table styling */
+
+td, tr {
+line-height:150%
+}
+
+td a {
+	text-decoration:none;
+	}
+	
+table {
+width: 700px;
+margin: 0 10px 0 250px;
+}
+
+table.tablesorter {
+margin:10px 0pt 15px;
+width: 100%;
+}
+
+
+/*Table header styles*/
+thead tr th {
+color:#006699;
+padding: 5px;
+text-align:left;
+border-bottom:2px solid #202020;
+vertical-align:bottom;
+}
+
+thead tr th:first-child {
+width:145px;
+}
+
+thead tr th:nth-child(2){
+	width:175px;
+}
+	
+thead tr th:nth-child(3){
+	width:100px;
+}
+
+thead tr th:nth-child(4){
+	width:80px;
+}
+	
+thead tr th:nth-child(5){
+	width:200px;
+}
+
+/* Body Styles*/
+
+tbody tr{
+vertical-align: top;
+height:100px;
+}
+
+tbody td {
+color: #3D3D3D;
+padding:10px;
+}
+
+.tablesorter tbody tr:hover {
+	background:#CDDDCC;
+}
+
+/* Zebra Striping */
+.stripe:nth-child(even){
+	background-color:#EFF3F9;
+}
+
+
+/* Header arrow style and positioning */
+.tablesorter-headerUnSorted {
+background-image: url(../images/bg.gif);
+background-repeat: no-repeat;
+background-position: 95% 78%;
+cursor: pointer;
+outline:none;
+}
+
+.tablesorter-headerAsc  {
+background-color: #e3edf9;
+background-image: url(../images/metro-black-asc.png);
+background-size:12px;
+background-repeat: no-repeat;
+background-position: 95% 78%;
+cursor: pointer;
+outline:none;
+}
+.tablesorter-headerDesc {
+background-color: #e3edf9;
+background-image: url(../images/metro-black-desc.png);
+background-size:12px;
+background-repeat: no-repeat;
+background-position: 95% 78%;
+cursor: pointer;
+outline:none;
+}
+
+.count {
+	color:#006699;
+	font-size:1em;
+	font-weight:bold;
+	padding-top:20px;
+	text-align:center
+}
+
+.make-selection, .no-results {
+	display:none;
+}
