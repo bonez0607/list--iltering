@@ -70,3 +70,4 @@ A simple plugin that creates filtering controls and based on data provided in th
 # To Do List
   * Improve readability - Perhaps converting to OOP
   * Remove dependencies on jQuery and tablesorter
+  * Break code into usable methods.
