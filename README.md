@@ -1,6 +1,6 @@
 # List Filtering
 
-A simple plugin that creates filtering controls and based on data provided in the DOM. 
+A simple plugin that creates filtering controls and based on data provided in the DOM. This allows the creation of checkboxes based on the data provided, provides a total 'counter' number
 
 # Requirements
 
@@ -65,7 +65,7 @@ A simple plugin that creates filtering controls and based on data provided in th
 # Using the filtering
 
 1. Cache jquery selectors (i.e. `$('table') $('.webinar') $('.no-results') $('.make-selection')`  
-2. To add select checkbox based on the Table data use addChkBx (i.d. addChkBx($('.year')); 
+2. To add select checkbox based on table data use addChkBx (i.d. addChkBx($('.year')); 
 
 # To Do List
   * Improve readability - Perhaps converting to OOP
