@@ -20,5 +20,6 @@ A simple plugin that creates filtering controls and based on data provided in th
 
 
 # To Do List
+  * Easier to use in other instances
   * Improve readability - Perhaps converting to OOP
   * Remove dependencies on jQuery and tablesorter
