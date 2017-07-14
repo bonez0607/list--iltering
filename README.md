@@ -9,16 +9,13 @@ A simple plugin that creates filtering controls and based on data provided in th
 
 # Installation
 
-1. Add Jquery to head**  
-
+1. Add Jquery to head  
 `<link rel='stylesheet" href=../lib/javascript/jquery-1.10.1.min>`  
 
 1. Add TableSorter  
-
-`<link rel='stylesheet" href=../lib/javascript/jquery.tablesorter.js>`
+`<link rel='stylesheet" href=../lib/javascript/jquery.tablesorter.js>`  
 
 1. Add CSS file change to suit taste  
-
 `<link rel='stylesheet" href=../lib/css/filter.css>`
 
 
