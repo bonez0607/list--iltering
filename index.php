@@ -13,11 +13,6 @@
 
 <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
 
-<!-------------------------------------
-
-			UPDATED STICKY
- 
---------------------------------------->
 
 <style type="text/css">
 /* DIV Stick */
@@ -110,11 +105,6 @@ $(window).ready(function() {
 });
 </script>
 
-<!-------------------------------------------------
-
-					END STICKY 
- 
---------------------------------------------------->
 
 </head>
 
